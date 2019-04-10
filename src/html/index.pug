@@ -1,0 +1,10 @@
+extends _master
+block head
+    link(rel="stylesheet", href=`css/app.css?${DATE_TIME}`)    
+    script(src=`js/app.js?${DATE_TIME}`)    
+
+
+block content
+    - var a = 'milkmidi'
+    h1= DEV_MODE
+    .box.flex abc

@@ -1,0 +1,21 @@
+{
+  "name": "gulp_template",
+  "description": "gulp_template",
+  "main": "index.js",
+  "authors": [
+    "gulp_template"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "device.js": "devicejs#^0.2.7"
+  }
+}
